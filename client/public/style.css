@@ -1,0 +1,23 @@
+/* 
+.mobile_view{
+  display: none;
+}
+
+
+@media only screen and (max-width:700px){
+div{
+    display: none;
+  }
+  .mobile_view{
+      position: fixed;
+      display: block;
+      margin: 20px;
+      padding: 20px;
+      font-size: medium;
+      top: 250px;
+      font-weight: 500;
+  }
+  body{
+    background-color: aqua;
+  }
+} */

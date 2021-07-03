@@ -1,0 +1,31 @@
+.remove_item{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product_info{
+    padding-left: 20px;
+}
+
+.product_info button{
+    background-color:#F4D03F ;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.product_image{
+    object-fit: contain;
+    width: 160px;
+    height: 190px;
+}
+
+.product_rating{
+    display: flex;
+}
+
+.product_title{
+    font-size: 15px;
+    font-weight: 500;
+}

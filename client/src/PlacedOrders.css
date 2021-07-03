@@ -1,0 +1,25 @@
+.placedorders{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+.placedorders h1{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.orderList{
+    border: 1px solid #A8A6A6;
+}
+
+@media only screen and (max-width:500px){
+    .placedorders{
+        width: 500px;
+    }
+}
