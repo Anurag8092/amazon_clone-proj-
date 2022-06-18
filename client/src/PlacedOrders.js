@@ -17,7 +17,7 @@ const  PlacedOrders = () => {
           credentials: "include"
       }).then(res=>res.json())
       .then(data=>{
-        //   console.log(data);
+        //  console.log(data);
         setOrders(data);
       })
   }, [orders])
@@ -33,13 +33,17 @@ const  PlacedOrders = () => {
 
             
                 {orders.map(item => (
-                    <CartRemoveItem
-                    id={item.id}
-                    title={item.title}
-                    image={item.image}
-                    price={item.price}
-                    hideButton
-                />
+                    // console.log(orders)
+
+                    item.map(i => (
+                        <CartRemoveItem
+                        id={i.id}
+                        title={i.title}
+                        image={i.image}
+                        price={i.price}
+                        hideButton
+                    />
+                    ))
                 ))}
   
                 
